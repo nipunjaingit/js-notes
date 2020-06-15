@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+</head>
+<body>
+    <div uk-grid class="main-container">
+        <div class="uk-padding" id="notesContainer">
+            <div class="uk-flex uk-flex-middle uk-flex-between uk-padding-small heading">
+                <h2 class="uk-text-bolder uk-text-center uk-margin-remove text-white">JS Notes</h2>
+                <i class="lni lni-circle-plus cursorPointer uk-box-shadow-hover-large text-white" id="addNote"></i>
+            </div>
+            <div id="notesItem"></div>
+            <div id="no-item" class="text-white uk-text-center uk-padding-small">
+                No notes added
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+    <script src="note.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

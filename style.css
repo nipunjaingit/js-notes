@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#notesContainer {
+    width: 40%;
+    margin: auto;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.lni-circle-plus {
+    font-size: 25px !important;
+}
+
+.heading {
+    border-bottom: 1px solid white;
+}
+
+.main-container {
+    overflow: hidden;
+    background-image: linear-gradient(to left, #42275a, #734b6d);
+}
+
+#notesItem {
+    height: calc(100vh - 150px);
+    overflow: auto;
+}
